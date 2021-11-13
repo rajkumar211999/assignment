@@ -1,0 +1,14 @@
+package junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class calculatorTest {
+
+	@Test
+	void test() {
+		System.out.println("this is my test case");
+	}
+
+}

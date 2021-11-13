@@ -1,0 +1,14 @@
+package Assignment2;
+
+public class DessertItem {
+
+	public DessertItem(String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public double getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
