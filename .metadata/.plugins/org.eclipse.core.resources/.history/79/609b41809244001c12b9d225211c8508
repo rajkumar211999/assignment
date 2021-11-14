@@ -1,0 +1,14 @@
+package com.selemiumexpress.ioc;
+
+public class Exam {
+	
+ public static void main(String[] args) {
+	 
+	 Students student = new Students();
+	 student.setStudentName("rajkumar");
+	 
+	 student.displayStudentInfo();
+	 
+ }
+
+}

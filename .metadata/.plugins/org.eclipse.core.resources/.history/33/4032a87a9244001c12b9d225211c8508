@@ -1,0 +1,13 @@
+package com.selemiumexpress.ioc;
+
+public class Students {
+	
+	String studentName;
+	
+	
+	public void displayStudentInfo()
+	{
+		System.out.println("Student name is : " +studentName);
+	}
+
+}
