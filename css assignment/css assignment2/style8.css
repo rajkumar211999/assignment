@@ -1,0 +1,18 @@
+p.one {
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: gray;
+    background-color: lightblue;
+  }
+  
+  p.three {
+    border-style: solid;
+    border-color: lightgray;
+    background-color: lightblue;
+  }
+ 

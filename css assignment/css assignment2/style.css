@@ -1,0 +1,21 @@
+h1{
+    background-color: lightskyblue;
+    border-style: solid;
+    border-color: black;
+}
+div{
+    background-color: lightsteelblue;
+    border-style: solid;
+    border-color: black; 
+}
+p{
+    background-color: lightcyan;
+    border-style: solid;
+    border-color: black;
+}
+style{
+    border: 2px solid black;
+}
+.main{
+    background-color: lightgray;
+}

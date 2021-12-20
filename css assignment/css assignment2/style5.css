@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 20%;
+  }
+  
+  th {
+    height: 30px;
+  }

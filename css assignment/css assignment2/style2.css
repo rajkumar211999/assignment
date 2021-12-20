@@ -1,0 +1,13 @@
+.main{
+    background-color: skyblue;
+    border: 1px solid black;
+    width:50%
+}
+  
+  h2 {
+    text-decoration: line-through;
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
