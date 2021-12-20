@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean name="question" class="com.springCollections.Question">
+		<property name="questionId" value="101"></property>
+		<property name="question" value="Tpes of framework?"></property>
+		<property name="answers1">
+			<list>
+				<value>MVC</value>
+				<value>Boot</value>
+				<value>Security</value>
+				<value>AOP</value>
+				<value>Rest</value>
+			</list>
+		</property>
+		<property name="answers2">
+			<set>
+				<value>MVC</value>
+				<value>Boot</value>
+				<value>Security</value>
+				<value>AOP</value>
+				<value>Rest</value>
+			</set>
+		</property>
+		<property name="answers3">
+			<map>
+				<entry key="1" value="MVC"></entry>
+				<entry key="2" value="Boot"></entry>
+				<entry key="3" value="Security"></entry>
+				<entry key="4" value="AOP"></entry>
+				<entry key="5" value="Rest"></entry>
+			</map>
+		</property>
+	</bean>
+	
+</beans>
